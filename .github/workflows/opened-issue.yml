@@ -6,6 +6,7 @@ on:
 
 permissions:
   repository-projects: write
+  issues: write
 
 jobs:
   comment:
