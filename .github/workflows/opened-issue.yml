@@ -1,8 +1,11 @@
-name: Learning Github Script
+name: Opened Issue
 
 on:
   issues:
     types: [opened]
+
+permissions:
+  repository-projects: write
 
 jobs:
   comment:
